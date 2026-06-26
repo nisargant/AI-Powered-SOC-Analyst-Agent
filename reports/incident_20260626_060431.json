@@ -1,0 +1,12 @@
+{
+    "threat_type": "",
+    "severity": "Low",
+    "mitre_attack": "Attempted Privilege Escalation (AT0090)",
+    "confidence": "Medium",
+    "reason": "High number of root attempts from unknown IP addresses",
+    "recommended_actions": [
+        "Monitor root login activity for suspicious patterns",
+        "Implement multi-factor authentication to prevent brute-force attacks",
+        "Block or restrict access from unknown source IPs"
+    ]
+}

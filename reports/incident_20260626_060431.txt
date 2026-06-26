@@ -1,0 +1,16 @@
+========== AI SOC INCIDENT REPORT ==========
+
+Threat Type : 
+Severity    : Low
+MITRE       : Attempted Privilege Escalation (AT0090)
+Confidence  : Medium
+
+Reason
+-----------------------------------------
+High number of root attempts from unknown IP addresses
+
+Recommended Actions
+-----------------------------------------
+- Monitor root login activity for suspicious patterns
+- Implement multi-factor authentication to prevent brute-force attacks
+- Block or restrict access from unknown source IPs
